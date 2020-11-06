@@ -13,4 +13,7 @@ data class Post(
 interface JsonPlaceHolderClient {
     @GET("/posts")
     fun posts(): Call<List<Post>>
+
+    @GET("/posts")
+    suspend fun postsSuspend(): List<Post>
 }
