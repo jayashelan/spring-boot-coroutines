@@ -1,6 +1,5 @@
 package nl.toefel.springbootcoroutines
 
-import com.fasterxml.jackson.core.JsonpCharacterEscapes
 import com.fasterxml.jackson.databind.ObjectMapper
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
